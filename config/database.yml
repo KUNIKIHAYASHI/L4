@@ -23,7 +23,7 @@ test:
 production:
   <<: *default
   database: storage/production.sqlite3
-  database: test_render_cbm5
-  username: test_render_cbm5_user
+  database: test_qlzy
+  username: test_qlzy_user
   password: <%= ENV['s36SBDI0Gj5bTFn5ISjd2M16iw14Htii'] %>
   url: <%= ENV['postgresql://test_qlzy_user:s36SBDI0Gj5bTFn5ISjd2M16iw14Htii@dpg-cruf34lumphs73em9qeg-a/test_qlzy'] %>
